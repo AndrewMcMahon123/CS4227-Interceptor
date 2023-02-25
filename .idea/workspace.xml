@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07dd70b7-af18-4ecf-b4ea-0675d0671fa0" name="Changes" comment="initial commit :)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContextObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetMeasurements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SetMeasurements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeatherLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeatherLogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeatherStation.java" afterDir="false" />
+    <list default="true" id="07dd70b7-af18-4ecf-b4ea-0675d0671fa0" name="Changes" comment="Added 2 interceptors and tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS4227-Interceptor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS4227-Interceptor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DisplayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DisplayElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetMeasurements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetMeasurements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeatherLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherLog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +47,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TemperatureTest">
+  <component name="RunManager" selected="Application.WeatherStation">
     <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WeatherStation" />
       <module name="CS4227-Interceptor" />
@@ -81,8 +66,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TemperatureTest" />
         <item itemvalue="Application.WeatherStation" />
+        <item itemvalue="JUnit.TemperatureTest" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675968692339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 2 interceptors and tests">
+      <created>1677334240009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677334240009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,17 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit :)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WeatherStation.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added 2 interceptors and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 interceptors and tests" />
   </component>
 </project>

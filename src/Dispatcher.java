@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class Dispatcher {
     ArrayList<Interceptor> interceptors = new ArrayList<Interceptor>();
-    private Interceptor interceptor;
 
     public void dispatch(ContextObject contextObject) {
         for (int i = 0; i < interceptors.size(); i++) {

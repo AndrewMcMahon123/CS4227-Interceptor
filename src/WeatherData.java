@@ -65,10 +65,6 @@ public class WeatherData implements SetMeasurements, GetMeasurements, Subject {
         }
     }
 
-    public Interceptor getInterceptor() {
-        return interceptors.get(0);
-    }
-
 //    @Override
     public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
